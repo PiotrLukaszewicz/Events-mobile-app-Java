@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Dodaj nowe wydarzenie"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/sports"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/basketball"
+            android:layout_marginLeft="10dp"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/camping"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/camping"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/cinema"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cinema"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/cycling"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cycling"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Sport"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Obozy"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Kino"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Rowery"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout_txt"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/concerts"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/conterts"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/drama"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/drama"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/fireworks"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fireworks"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/gamepad"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/gamepad"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Koncerty"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Teart"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Plenerowe"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="E-sport"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout_txt"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imprezy_masowe"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/imprezy_masowe"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/kluby"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/picture"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/talks"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/talk"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/uroda"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/plant"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Masowe"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Muzea"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Meetingi"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Zdrowie i uroda"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36453520364",
+    "firebase_url": "https://eventr-ad9d4.firebaseio.com",
+    "project_id": "eventr-ad9d4",
+    "storage_bucket": "eventr-ad9d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36453520364:android:3f9fcaf449d21d9d",
+        "android_client_info": {
+          "package_name": "com.example.eventr_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36453520364-mg1klefk0u6isfug34rq20ffeu3pvis6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventr_app",
+            "certificate_hash": "dbee3afa71348fd98874fe28a9d96e31e04c3dce"
+          }
+        },
+        {
+          "client_id": "36453520364-gr5ipemhljso33ncfkjr5o6rsqumqaud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDbXZV7gW2hTfxu74HWAgxaPcGnoscQWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36453520364-gr5ipemhljso33ncfkjr5o6rsqumqaud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
